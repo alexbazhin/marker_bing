@@ -1,0 +1,51 @@
+body {		
+	font-family: 'Vollkorn', serif;
+	color:#333333;
+	font-size:16px;
+	margin: 0 auto; 
+    background: #f5f5f5; 
+}
+
+#wrap{
+	width: 1000px;
+	margin: 30px auto;
+}
+
+#mapContainer {
+	position:relative;
+    height: 550px;
+    width: 1000px;
+	border:10px solid #eaeaea;
+}
+
+.infoBox {
+	width:240px;
+	min-height:100px;
+	background-color: white;
+	border: medium solid darkorange;
+}
+
+.infoboxTitle {
+	width:220px;
+	position:absolute;
+	top:10px;
+	left:10px;
+}
+
+.textInfobox {
+	position:absolute;
+	top:30px;
+	left:50px;
+}
+
+.imageInfobox {
+	position:absolute;
+	top:40px;
+	left:10px;
+}
+
+.point1,
+.point2,
+.point3 {
+	cursor: pointer;
+}
